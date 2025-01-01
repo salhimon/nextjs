@@ -1,6 +1,6 @@
 // about.js
 import styles from "../styles/About.module.css";
-
+import { metadata } from "../layout";
 export default function About() {
   return (
     <div className={styles.container}>
@@ -13,6 +13,10 @@ export default function About() {
         alt="Photo de profil"
         className={styles.profilePic}
       />
+       <div style={{ textAlign: "center", padding: "2rem" }} className="metadata-display">
+            <h1>{metadata.title}</h1>
+            <p>{metadata.description}</p>
+          </div>
     </div>
   );
 }

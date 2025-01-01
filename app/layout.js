@@ -27,10 +27,7 @@ export default function RootLayout({ children }) {
         </header>
         <main>
           {children}
-          <div style={{ textAlign: "center", padding: "2rem" }} className="metadata-display">
-            <h1>{metadata.title}</h1>
-            <p>{metadata.description}</p>
-          </div>
+         
         </main>
         <footer>
           <p>© 2024 Mon Portfolio. Tous droits réservés.</p>
