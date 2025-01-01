@@ -28,6 +28,8 @@ export default function RootLayout({ children }) {
         <main>
           {children}
          
+    
+
         </main>
         <footer>
           <p>© 2024 Mon Portfolio. Tous droits réservés.</p>
