@@ -1,4 +1,4 @@
-export default function Home() {
+export default function home() {
     return (
       <div style={{ textAlign: "center", padding: "2rem" }}>
         <h1>Bienvenue sur mon portfolio</h1>

@@ -1,7 +1,7 @@
-import styles from "../Styles/contact.module.css";
+import styles from "../styles/contact.module.css";
 
 
-export default function Contact() {
+export default function contact() {
   return (
     <div className={styles.container}>
       <img

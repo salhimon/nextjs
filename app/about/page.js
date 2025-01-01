@@ -1,7 +1,7 @@
 // about.js
-import styles from "../Styles/about.module.css";
+import styles from "../styles/about.module.css";
 import { metadata } from "../layout";
-export default function About() {
+export default function about() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>À propos de moi</h1>
