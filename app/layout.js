@@ -1,5 +1,5 @@
 // RootLayout.js
-import "./styles/globals.css";
+import "./Styles/globals.css";
 
 export const metadata = {
   title: "Mon Portfolio",
