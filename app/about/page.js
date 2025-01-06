@@ -1,5 +1,5 @@
 // about.js
-import styles from "../styles/about.module.css";
+import styles from "./about.module.css";
 import { metadata } from "../layout";
 export default function about() {
   return (
